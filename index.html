@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Dog Image</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <h1>Random Dog Image</h1>
+
+  <!-- Loading Spinner -->
+  <div id="loadingSpinner" class="spinner"></div>
+
+  <!-- Dog Image -->
+  <img id="dogImage" src="" alt="Random Dog" style="display: none;">
+
+  <br>
+  <button onclick="fetchDogImage()">Get New Dog</button>
+
+  <!-- Add jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
